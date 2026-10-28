@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — UK Review Desk</title>
+  <meta name="description" content="Contact the UK Review Desk review desk. 18+.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css?v=5">
+</head>
+<body data-page="contact" data-root="">
+  <div id="chrome-top"></div>
+  <main id="main">
+    <section class="section">
+      <div class="wrap-s prose">
+        <p class="crumbs">home / contact</p>
+        <h1>Contact the desk</h1>
+        <p>Corrections, licence updates and general questions. The desk aims to reply within two working days. This form does not send mail by itself — it checks the fields, then asks you to email <a href="mailto:hello@ukreviewdesk.co.uk">hello@ukreviewdesk.co.uk</a>.</p>
+        <p class="fine">Mon–Fri, 09:00–17:30 UK time. Do not send account passwords or card numbers.</p>
+        <form id="contact-form" class="form">
+          <label>Name <input name="name" type="text" autocomplete="name" required></label>
+          <label>Email <input name="email" type="email" autocomplete="email" required></label>
+          <label>Topic
+            <select name="topic">
+              <option>Correction</option>
+              <option>Licensing</option>
+              <option>Commercial disclosure</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Message <textarea name="message" required minlength="8"></textarea></label>
+          <p id="form-error" class="fine" hidden style="color:#ffb4a2">Add a valid email and at least a short message.</p>
+          <button class="btn btn-primary" type="submit">Review message</button>
+        </form>
+        <div id="form-ok" class="form-ok" hidden>
+          <h2>Ready to send</h2>
+          <p>Nothing was uploaded. Email the same note to <a href="mailto:hello@ukreviewdesk.co.uk">hello@ukreviewdesk.co.uk</a> so it reaches the desk. Connect this form to a mailbox before you publish the site.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="chrome-bottom"></div>
+  <script src="assets/js/site.js?v=5"></script>
+</body>
+</html>
